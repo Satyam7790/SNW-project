@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const welcomePopup = document.getElementById("welcome-popup");
+    const welcomePopup = document.getElementById("welcomePopup");
     const closePopupBtn = document.getElementById("closePopup");
     const mainContent = document.getElementById("main-content");
 
