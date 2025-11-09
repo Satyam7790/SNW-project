@@ -40,11 +40,21 @@ body{
 }
 header{
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: var(--black);
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 0 15px rgba(230, 57, 70, 0.3);
+}
+header h1{
     color: var(--white);
-    padding: 15px 0;
-    z-index: 1000;
+    font-weight: 700;
 }
